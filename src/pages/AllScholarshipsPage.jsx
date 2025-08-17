@@ -22,7 +22,7 @@ const AllScholarshipsPage = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage] = useState(9); // Show 9 scholarships per page
+    const [itemsPerPage] = useState(9);
 
     // Fetch scholarships
     useEffect(() => {
